@@ -1,6 +1,7 @@
 ADScrollview
 ====
 ###轻量级特别好用的图片轮播器
+![](https://raw.githubusercontent.com/tx5655/ADScrollview/master/ADScrollviewDemo/demoGif.gif)
 
 
 * Usage
