@@ -22,6 +22,8 @@
     
     self.view.backgroundColor = [UIColor grayColor];
     
+    
+    
     ADScrollview *ad = [ADScrollview NewADScrollview];
     ad.frame = CGRectMake(10, 20, 300, 160);
     // 点击图片后跳转的广告url。如果没有广告，可以直接注释掉，点击图片就无反应
