@@ -25,7 +25,7 @@
     ADScrollview *ad = [ADScrollview NewADScrollview];
     ad.frame = CGRectMake(10, 20, 300, 160);
     // 点击图片后跳转的广告url。如果没有广告，可以直接注释掉，点击图片就无反应
-    ad.picsUrls = @[@"http://site.baidu.com/",@"www.baidu.com",@"www.baidu.com",@"www.baidu.com",@"www.baidu.com"];
+    ad.picsUrls = @[@"http://site.baidu.com/",@"http://site.baidu.com/",@"http://site.baidu.com/",@"http://site.baidu.com/",@"http://site.baidu.com/"];
     // 图片url
     ad.pics = @[@"https://octodex.github.com/images/privateinvestocat.jpg",
                 @"https://octodex.github.com/images/gracehoppertocat.jpg",

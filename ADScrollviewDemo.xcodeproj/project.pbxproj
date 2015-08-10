@@ -33,6 +33,7 @@
 		D3E3CC531B788C4700EF6BF9 /* ADScrollview.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E3CC511B788C4700EF6BF9 /* ADScrollview.m */; };
 		D3E3CC541B788C4700EF6BF9 /* ADScrollview.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E3CC521B788C4700EF6BF9 /* ADScrollview.xib */; };
 		D3E3CC561B788D0500EF6BF9 /* nilPic.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E3CC551B788D0500EF6BF9 /* nilPic.png */; };
+		D3E3CC581B7896FF00EF6BF9 /* demoGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = D3E3CC571B7896FF00EF6BF9 /* demoGif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		D3E3CC511B788C4700EF6BF9 /* ADScrollview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADScrollview.m; sourceTree = "<group>"; };
 		D3E3CC521B788C4700EF6BF9 /* ADScrollview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADScrollview.xib; sourceTree = "<group>"; };
 		D3E3CC551B788D0500EF6BF9 /* nilPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nilPic.png; sourceTree = "<group>"; };
+		D3E3CC571B7896FF00EF6BF9 /* demoGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demoGif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		D3E3CBF11B788BB200EF6BF9 /* ADScrollviewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D3E3CC571B7896FF00EF6BF9 /* demoGif.gif */,
 				D3E3CC4F1B788C2200EF6BF9 /* ADScrollview */,
 				D3E3CBF61B788BB200EF6BF9 /* AppDelegate.h */,
 				D3E3CBF71B788BB200EF6BF9 /* AppDelegate.m */,
@@ -312,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E3CC581B7896FF00EF6BF9 /* demoGif.gif in Resources */,
 				D3E3CC541B788C4700EF6BF9 /* ADScrollview.xib in Resources */,
 				D3E3CBFE1B788BB200EF6BF9 /* Main.storyboard in Resources */,
 				D3E3CC561B788D0500EF6BF9 /* nilPic.png in Resources */,
@@ -548,6 +552,7 @@
 				D3E3CC141B788BB200EF6BF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3E3CC151B788BB200EF6BF9 /* Build configuration list for PBXNativeTarget "ADScrollviewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +561,7 @@
 				D3E3CC171B788BB200EF6BF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
